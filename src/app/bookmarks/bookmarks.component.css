@@ -1,0 +1,24 @@
+.card-up{
+    background-color:#272e35;
+    height: 60px;
+    position:relative;
+}
+
+
+.hand{
+    cursor: pointer;
+}
+
+.overflow{
+    max-height: 340px;
+    overflow:auto;
+}
+
+
+.title-cards{
+    color:#fff;
+    font-size: 1.3em;
+    position:absolute;
+    transform: translateY(-50%);
+    top:50%;
+ }

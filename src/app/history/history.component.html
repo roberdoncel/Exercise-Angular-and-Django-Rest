@@ -1,0 +1,11 @@
+<div class="card" style="text-align: center;">
+    <div class="card-up">
+        <h4 class="card-img-top title-cards">History</h4>
+    </div>
+    <div class="card-body overflow ">        
+        <ul class="list-group hand">
+            <li *ngFor="let elem of url_history" (click)="load_video_again(elem)" class="list-group-item list-group-item-action">{{elem}}</li>
+        </ul>
+    </div>
+
+</div>

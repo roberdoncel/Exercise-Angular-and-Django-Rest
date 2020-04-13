@@ -1,0 +1,15 @@
+<section id="section-player">
+    <div>
+        <h4>Video Player</h4>
+    </div>
+    <div *ngIf="is_video;else div_novideo" id="div-player">
+        <iframe width="560" height="315" [src]="youtube_url_embebed | safeurl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="div-bottoms">
+        <button (click)="add_video_to_bookmarks()" class="btn btn-primary">Add Video to Bookmarks</button>
+        <button (click)="show_bookmarks_list()" class="btn btn-outline-info">Show/hide Bookmarks list</button>
+    </div>
+    <ng-template #div_novideo>
+        <h5 class="novideo">There isn't a video param in url</h5>
+    </ng-template>
+</section>

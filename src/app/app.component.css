@@ -1,0 +1,17 @@
+ 
+#footer{
+    background-color: #212529;
+    height: 50px;
+    margin-top: 4em;
+}
+
+ #search-bar-cont{
+     background-color: #212529;
+     margin-bottom:2em;
+     padding:.7em 2em .7em 2em;
+ }
+
+
+ .ml{
+     margin-left:1em !important;
+ }

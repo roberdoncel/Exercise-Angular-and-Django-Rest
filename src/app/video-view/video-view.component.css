@@ -1,0 +1,30 @@
+#div-bottoms{
+    bottom:0px;
+    position:absolute;
+    width:100%;
+}
+
+#div_novideo{
+    position:relative;
+}
+
+
+#div-player{
+    height: 315px;
+    position:relative;
+}
+
+
+#section-player{
+    min-height: 400px;
+    position:relative;
+
+}
+
+.novideo{
+    color:#686f75;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) translateX(-50%);
+    left: 50%;
+}
